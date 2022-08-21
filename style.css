@@ -86,13 +86,13 @@ can more closely line up with the reference */
 
 .grid-item-bottom{
     border: solid 6px var(--colour-one);
+    background-color: var(--colour-three);
     border-right-color: transparent;
     border-top-color: transparent;
     border-left-color: transparent;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
-    background-image: linear-gradient();
 }
 
 .grid-item-tb{
